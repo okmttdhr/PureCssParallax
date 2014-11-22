@@ -279,44 +279,45 @@ body {
 }
 /* line 218, ../sass/main.scss */
 .parallax__nav li {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 /* line 220, ../sass/main.scss */
 .parallax__nav li a {
+  line-height: 1.2;
   color: #fff;
   text-decoration: none;
   font-size: 14px;
 }
-/* line 224, ../sass/main.scss */
+/* line 225, ../sass/main.scss */
 .parallax__nav li a:hover {
   color: #fff;
   text-decoration: underline;
 }
 
 /* --- nav end --- */
-/* line 234, ../sass/main.scss */
+/* line 235, ../sass/main.scss */
 .sorry {
   display: none;
 }
 
 @media screen and (max-width: 640px) {
-  /* line 239, ../sass/main.scss */
+  /* line 240, ../sass/main.scss */
   .parallax {
     display: none;
   }
 
-  /* line 242, ../sass/main.scss */
+  /* line 243, ../sass/main.scss */
   .sorry {
     display: block;
     width: 100vw;
     height: 100vh;
     background: #3E95C1;
   }
-  /* line 247, ../sass/main.scss */
+  /* line 248, ../sass/main.scss */
   .sorry .parallax__nav {
     margin: -35px 0 0 0;
   }
-  /* line 250, ../sass/main.scss */
+  /* line 251, ../sass/main.scss */
   .sorry .sorry__txt {
     margin-bottom: 10px;
   }
