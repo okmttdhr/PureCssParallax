@@ -94,7 +94,7 @@ body {}
   overflow-y: auto;
 }
 .parallax__group {
-  height: 500px;
+  height: 100vh;
   position: relative;
 }
 .parallax__layer {
@@ -104,9 +104,60 @@ body {}
   bottom: 0;
   left: 0;
 }
+
+/* --- transform with z --- */
 .parallax__layer--base {
   transform: translateZ(0);
 }
+
 .parallax__layer--back {
-  transform: translateZ(-1px);
+  transform: translateZ(-1px) scale(2);
 }
+
+.parallax__layer--back2 {
+  transform: translateZ(-2px) scale(3);
+}
+
+.parallax__layer--back3 {
+  transform: translateZ(-3px) scale(4);
+}
+
+/* --- transform with z end --- */
+/* --- fixed background --- */
+
+.parallax__layer--fixed_bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parallax__layer--fixed_bg1 {
+  background-image: url("../images/ocean1.jpg");
+}
+
+.parallax__layer--fixed_bg2 {
+  background-image: url("../images/ocean2.jpg");
+}
+
+.parallax__layer--fixed_bg3 {
+  background-image: url("../images/ocean3.jpg");
+}
+
+.parallax__layer--fixed_bg4 {
+  background-image: url("../images/ocean4.jpg");
+}
+
+.parallax__layer--fixed_bg5 {
+  background-image: url("../images/ocean5.jpg");
+}
+
+.parallax__layer--fixed_bg6 {
+  background-image: url("../images/ocean6.jpg");
+}
+
+.parallax__layer--fixed_bg7 {
+  background-image: url("../images/ocean7.jpg");
+}
+
+/* --- fixed background end --- */

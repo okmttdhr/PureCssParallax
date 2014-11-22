@@ -107,7 +107,7 @@
 
 /* line 96, main.scss */
 .parallax__group {
-  height: 500px;
+  height: 100vh;
   position: relative;
 }
 
@@ -120,12 +120,70 @@
   left: 0;
 }
 
-/* line 107, main.scss */
+/* --- transform with z --- */
+/* line 109, main.scss */
 .parallax__layer--base {
   transform: translateZ(0);
 }
 
-/* line 110, main.scss */
+/* line 113, main.scss */
 .parallax__layer--back {
-  transform: translateZ(-1px);
+  transform: translateZ(-1px) scale(2);
 }
+
+/* line 117, main.scss */
+.parallax__layer--back2 {
+  transform: translateZ(-2px) scale(3);
+}
+
+/* line 121, main.scss */
+.parallax__layer--back3 {
+  transform: translateZ(-3px) scale(4);
+}
+
+/* --- transform with z end --- */
+/* --- fixed background --- */
+/* line 128, main.scss */
+.parallax__layer--fixed_bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 135, main.scss */
+.parallax__layer--fixed_bg1 {
+  background-image: url("../images/ocean1.jpg");
+}
+
+/* line 139, main.scss */
+.parallax__layer--fixed_bg2 {
+  background-image: url("../images/ocean2.jpg");
+}
+
+/* line 143, main.scss */
+.parallax__layer--fixed_bg3 {
+  background-image: url("../images/ocean3.jpg");
+}
+
+/* line 147, main.scss */
+.parallax__layer--fixed_bg4 {
+  background-image: url("../images/ocean4.jpg");
+}
+
+/* line 151, main.scss */
+.parallax__layer--fixed_bg5 {
+  background-image: url("../images/ocean5.jpg");
+}
+
+/* line 155, main.scss */
+.parallax__layer--fixed_bg6 {
+  background-image: url("../images/ocean6.jpg");
+}
+
+/* line 159, main.scss */
+.parallax__layer--fixed_bg7 {
+  background-image: url("../images/ocean7.jpg");
+}
+
+/* --- fixed background end --- */
